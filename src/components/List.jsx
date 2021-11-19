@@ -28,6 +28,10 @@ const List = () => {
       grocery.map((i) => (i.id === id ? { ...i, starred: !i.starred } : i))
     );
   };
+
+  const handleDelete = (id) => {
+    setGrocery(grocery.filter((item) => item.id !== id));
+  };
   return (
     <div className={style.mainContainer}>
       <div>
@@ -44,6 +48,7 @@ const List = () => {
                 data={i}
                 handleTaskComplete={handleTaskComplete}
                 handleStarred={handleStarred}
+                handleDelete={handleDelete}
               ></ListItem>
             );
           })}
@@ -68,6 +73,7 @@ const List = () => {
                   data={i}
                   handleTaskComplete={handleTaskComplete}
                   handleStarred={handleStarred}
+                  handleDelete={handleDelete}
                 ></ListItem>
               );
             })}
