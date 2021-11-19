@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.inputContainer {
+  background-color: #F6C7A5;
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  padding-left: 10px;
+  align-items:center;
+  border-radius: 5px;
+  margin-top:40px;
+ 
+}
+
+.inputContainer svg{
+    cursor: pointer;
+}
+
+.container {
+  width: 30%;
+  margin: auto;
+  height: 50px;
+}
+
+.inputContainer input {
+  border-style: none;
+  background: none;
+  outline: none;
+  padding-left: 10px;
+  caret-color: white;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.inputContainer input::placeholder {
+  font-size: 18px;
+  color: #ffffff;
+}

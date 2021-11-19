@@ -1,0 +1,29 @@
+.mainContainer{
+    width:100%;
+    margin: auto;
+}
+
+.itemList{
+    margin-top: 20px;
+}
+
+.mainContainer button{
+    
+    outline: none;
+    border-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(255,255,255,0.2) !important;
+    border:1px solid rgba(255,255,255,0.4);
+    backdrop-filter: blur(8px);
+    font-size: 12px;
+    color: #fff ;
+    padding: 12px;
+    border-radius:10px;
+    margin: 20px;
+}
+
+.buttons{
+    width:32%;
+    margin: auto;
+}
